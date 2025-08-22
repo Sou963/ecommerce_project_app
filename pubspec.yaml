@@ -1,0 +1,41 @@
+name: e_shop
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI and State Management
+  cupertino_icons: ^1.0.8
+  get: ^4.6.1
+  http: ^0.13.6
+  carousel_slider: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting & best practices
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - assets/images/
+
+  # To add custom fonts, add a fonts section like this:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
